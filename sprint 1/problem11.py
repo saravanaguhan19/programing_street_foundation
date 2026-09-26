@@ -1,0 +1,10 @@
+n=int(input())
+
+reverseNumber=0
+
+while n>0:
+  digit= n%10
+  reverseNumber = (reverseNumber*10) + digit
+  n=n//10
+
+print(reverseNumber)
